@@ -1,8 +1,11 @@
 angular.module('clientRoutes', [])
 
-.config(['$stateProvider', function($stateProvider) {
-
+.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+  console.log('ng darrin');
+  $urlRouterProvider
+    .otherwise('/');
   $stateProvider
+
 
     .state('home', {
       url: '/',
