@@ -1,4 +1,4 @@
-
+/*
 
 #filesId {
   width: 100%;
@@ -17,9 +17,9 @@
   background-color: rgba(0,0,0,0.3);
   pointer-events: none;
   z-index: 1; 
-}
+}*/
 
-
+/*
 #dropZone {
   opacity: .6;
   position: absolute;
@@ -51,4 +51,38 @@
 #fileLink:hover {
   opacity: .9;
   transform: scale(1.01, 1.01);
+}*/
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: red;
+}
+
+.table {
+  display: inline-block;
+  width: 45%;
+}
+
+.table-wrapper {
+  display: inline-block;
+  width:45%;
+  border: solid black 2px;
+  margin: 0 auto;
+  height: 80%;
+}
+
+.files-display {
+  margin: 0 auto;
+  width:70%;
+}
+
+.offers{
+  float: left;
+}
+
+.downloads{
+  float: right;
 }
